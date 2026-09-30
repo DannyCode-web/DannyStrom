@@ -5,6 +5,7 @@ export default defineConfig({
     spa: {
       enabled: true,
     },
+    output: "static",
     server: {
       entry: "server",
     },

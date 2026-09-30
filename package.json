@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "deploy": "npm run build && gh-pages -d .output/public"
+    "deploy": "npm run build && copy /Y .output\\public\\_shell.html .output\\public\\index.html && gh-pages -d .output/public"
   },
   "overrides": {
     "rolldown": "1.2.1"
